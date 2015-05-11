@@ -4,7 +4,7 @@
   "description": "iOS WebView app for testing appium",
   "main": "apps.json",
   "scripts": {
-    "install": "node -e \"require('grunt').tasks(['default']);\""
+    "postinstall": "node -e \"require('grunt').tasks(['default']);\""
   },
   "repository": {
     "type": "git",
